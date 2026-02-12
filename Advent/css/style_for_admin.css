@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background:#2b0206; color:#fff; padding:20px; }
+h1,h2 { color:#ffb3b3; }
+label { display:block; margin-top:14px; font-weight:bold; }
+input, textarea, select { width:100%; padding:8px; margin-top:4px; border-radius:6px; border:1px solid #b44; }
+.editor { background:#fff; color:#000; padding:12px; min-height:160px; border-radius:6px; }
+button { margin-top:20px; padding:12px 30px; background:#b30000; color:#fff; border:none; border-radius:8px; font-size:16px; cursor:pointer; }
+button:hover { background:#d40000; }
+.notice { margin:15px 0; color:#7CFF7C; font-weight:bold; display:none; }
+.tabs { display:flex; margin-bottom:20px; border-bottom:2px solid #b44; }
+.tab { padding:10px 20px; cursor:pointer; background:#3e030a; margin-right:4px; border-radius:6px 6px 0 0; }
+.tab.active { background:#b30000; font-weight:bold; }
+.tab-content { display:none; background:#3e030a; padding:20px; border-radius:0 12px 12px 12px; }
+.tab-content.active { display:block; }
+.box { margin-bottom:25px; }
+.calendar-preview { display:flex; flex-wrap:wrap; gap:8px; }
+.day-box { width:40px; height:40px; background:#b44; display:flex; align-items:center; justify-content:center; cursor:pointer; border-radius:6px; color:#fff; }
+.day-box.inactive { background:#555; cursor:default; }
